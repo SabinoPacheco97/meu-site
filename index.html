@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Site pessoal de Tchimuku O Ermo, desenvolvedor e criador." />
+  <title>Sabino Chimuco Pacheco</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="03D1FC23-8C92-4A4B-AAE7-898C4CBB4426.jpeg" alt="Foto de perfil" class="perfil-foto">
+    <h1>Sabino Chimuco Pacheco</h1>
+    <p class="habilidade"> <b>Estudante de Engenharia Informática no ISP - BIÉ • Poeta • Assistente Administrativo • Cristão</b></p>
+    <button id="themeToggle" aria-label="Alternar modo claro/escuro">🌗</button>
+  </header>
+
+  <nav aria-label="Navegação principal">
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Biografia</h2>
+      <p>Sabino Chimuco Pacheco, jovem amante de desafios que procura sempre por novas experiências
+        principalmente no ramo da tecnologia.
+        A minha paixão por tecnologia começou em 2012 quando fiz o curso de <b>Informática Básica e Inglês Básico</b>
+        destacado por ser o melhor <b>aluno</b> dos dois cursos e do Centro de Formação Profissional.
+        Tentei fazer o Curso de Informática no Ensino Médio, mas não tive sucesso. <br>
+        <b>Quando ingressei ao Ensino Superior</b> testei no Curso de Engenharia Informática, tendo obtido sucesso no exame de acesso. No 
+        Instituto Superior Politécnico do Bié <b>(Angola).</b> <br>
+        <b>Actualmente estou a frequentar o último ano de Frequência do Curso de Engenharia Informática.</b> <br>
+        Este é meu espaço pessoal onde compartilho ideias, projetos e sonhos.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfólio</h2>
+      <p>Por ainda não trabalhar na área de Desenvolvedor, <b>apenas falarei de alguns projectos com fim académico
+      feito por mim.</b>
+      </p>
+      <article>
+        <h3>Projeto 1 – Página Web para Conversor de Moedas</h3>
+        <p>
+          Foi a minha primeira página web que fiz, onde aprendi a usar HTML, CSS e JavaScript. <br>
+          Foi um projeto simples, mas que me deu uma boa base para entender como funcionam as páginas web. E como funciona matematicamente um conversor de moedas. 
+        </p>
+      </article>
+      <article>
+        <h3>Projeto 2 – Aplicativo Mobile para Previsão do Tempo.</h3>
+        <p>
+          Foi um projeto que desenvolvi como parte do meu curso de Engenharia Informática. <br>
+          O aplicativo permite que os usuários vejam a previsão do tempo para diferentes cidades,
+          utilizando uma API para obter dados meteorológicos em tempo real. <br>
+          Aprendi a trabalhar com APIs, manipulação de dados e design de interfaces móveis o mais básico possível.
+        <br>
+          Foi um desafio interessante que me ajudou a entender melhor o desenvolvimento mobile e foi muito desafiador para mim.
+        </p>
+      </article>
+      <article>
+        <h3>Projeto 3 – Sistema Informático para a Biblioteca Virtual </h3>
+        <p>
+          Este projeto foi desenvolvido como parte do meu curso de Engenharia Informática. <br>
+          O sistema permite que os usuários pesquisem e acessem livros digitais, disponiveis no sistema.
+          O que ajudaria a promover a leitura e o acesso à informação, bem como dinamizar o processo de Ensino e Aprendizagem,
+          no Instituto Superior Politécnico do Bié. <br>
+          <b>Foi um projeto que envolveu várias tecnologias, incluindo HTML, CSS, JavaScript e o uso do Google Drive para hospedagem dos manuais.</b> <br>
+          Foi um projeto desafiador, mas muito gratificante, pois pude aplicar muitos dos conceitos que aprendi ao longo do curso.
+        </p>
+      </article>
+      <article>
+        <h3>Projeto 4 – Sistema Informático para Gestão Desportiva do Clube Sporting Clube do Bié</h3>
+        <p>
+        Este projecto foi desenvolvido como parte do meu curso de Engenharia Informática. <br>
+        O sistema permitia apenas o Cadastro de Atletas, e Sócios do Clube, bem como a visualização dos mesmos. <br>
+        O que ajudaria a promover o desporto e o acesso à informação, bem como dinamizar o processo de Gestão Desportiva
+        no Clube Sporting Clube do Bié. <br>
+        Foi um projeto que envolveu várias tecnologias, incluindo HTML, CSS, JavaScript, PHP e conexão com Banco de Dados MySQL.<br>
+        </p>
+    </section>
+    <p class="nota">
+      <b>Nota:</b> Estes são apenas alguns dos projetos que desenvolvi ao longo do meu curso de Engenharia Informática. <br>
+      Estou sempre em busca de novos desafios e oportunidades para aprender e crescer na área da tecnologia e as aulas da Power Learn Project, têm muito me ajudado a melhorar as minhas habilidades e conhecimentos. <br>
+      Sinta-se à vontade para entrar em contato comigo.
+    </p>
+    <br>
+    <section id="contato">
+      <h2>Contato</h2>
+      <form action="https://formspree.io/f/xzzvgngq" method="POST">
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required>
+
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="mensagem">Mensagem:</label>
+  <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+
+
+
+      <p id="resposta" role="alert" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sabino Chimuco Pacheco. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
